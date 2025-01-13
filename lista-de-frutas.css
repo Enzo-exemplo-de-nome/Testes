@@ -1,0 +1,17 @@
+
+h1 {
+    background-color: red;
+  }
+  ul {
+    background-color: yellow;
+  }
+
+  div {
+    background-color: green;
+  }
+  li {
+    display:block;
+    width: 100px;
+    background-color: pink;
+    float: left;
+  }

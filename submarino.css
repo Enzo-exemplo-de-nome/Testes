@@ -1,0 +1,21 @@
+html {
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.Childs {
+    display: ;
+    /*display: block;
+    display: inline-block;
+    display: none;
+    display: flex;
+    display: grid;*/
+    border: 3px dashed greenyellow;
+    margin: 3;
+    padding: 10px 10px;
+    text-align: center;
+}

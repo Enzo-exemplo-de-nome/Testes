@@ -1,0 +1,30 @@
+html {
+    background-color: rgb(26, 26, 26);
+    font-family: 'Courier New', Courier, monospace;
+}
+body p,
+h1, 
+h2,
+figcaption,
+a,
+.categoria {
+    color: white;
+}
+header {
+    text-align: center;
+}
+
+.list-icons ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-template-rows: 1fr;
+}
+.list-icons, 
+.membros-internos {
+    border: 3px solid darkcyan;
+}
+.coluna1 {
+    
+}

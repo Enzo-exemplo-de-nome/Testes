@@ -1,0 +1,124 @@
+html {
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: darkseagreen;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: blue;
+    padding: 0 100px 100px 100px;
+    border: 5px solid black;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: green;
+    text-shadow: 3px 3px 1px black;
+}
+
+p,
+li,
+table {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(124 124 124);
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight:900;
+}
+
+th,
+td {
+    border: 1px solid rgb(124, 124, 124);
+    padding: 8px 10px;
+}
+
+tbody > tr:nth-of-type(odd) {
+    background-color: rgb(255, 0, 157);
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+#div1 {
+    background-color: rgb(79, 184, 178);
+    margin: 20px auto;
+    padding: 0 20px 20px 20px;
+    border: 3px solid turquoise;
+}
+
+#div2 {
+    background-color: rgb(88, 134, 88);
+    margin: 20px auto;
+    padding: 0 20px 20px 20px;
+    border: 1px solid black;
+}
+
+#div3 {
+    background-color: rgb(211, 220, 228);
+    margin: 20px auto;
+    padding: 0 20px 20px 20px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    overflow-x: auto;
+}
+
+#img1 {
+    margin: 0 auto;
+    padding-right: 500px;
+}
+
+#img2 {
+    margin: 0 auto;
+    padding-left: 300px;
+}
+
+#imgs {
+    background-color: darkkhaki;
+    margin: 0 auto;
+    padding: 0;
+    border: 2px solid yellow;
+}
+
+#div4 {
+    background-image: url(https://m.media-amazon.com/images/I/914kxC4gHUL._UF894,1000_QL80_.jpg);
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 20px 30px 40px 60px;
+}
+
+div.tres {
+    width: 30px;
+    height: 30px;
+    border: 25px solid; /*as 4 bordas sólidas com 25 pixels de largura*/
+    border-color: #f00 #0f0 #00f #fc0; /*cores: topo, direita, inferior, direita*/
+    box-sizing: border-box;
+    line-height: 0;
+    margin: 20px;
+    padding: 0 0 0 0;
+}
+
+div.god {
+    background-color: brown;
+    font-family: serif;
+    border: 2px solid darkblue;
+    margin: 40px;
+    padding: 20px 20px;
+    width: auto;
+}

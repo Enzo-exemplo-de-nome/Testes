@@ -1,0 +1,29 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 400px;
+}
+.one {
+    grid-column: auto;
+    grid-row: auto;
+}
+.two {
+    grid-column:;
+    grid-row:;
+}
+.three {
+    grid-column:;
+    grid-row:;
+}
+.four {
+    grid-column:;
+    grid-row:;
+}
+.five {
+    grid-column:;
+    grid-row:;
+}
+.six {
+    grid-column:;
+    grid-row:;
+}
